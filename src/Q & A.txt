@@ -1,0 +1,7 @@
+1. what is Angular?
+
+Angular is a framework of javascript that helps you build reactive single-page-appications.
+
+2.what is SPAs?
+
+SPA is a web application that load web content in only one web document, and then update the content of the document by using Javascript APIs then new contents are gonna be shown. Bisically the users will get the web without reloading the information from server, which will gain the performance and dynamic expexrience.
