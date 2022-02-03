@@ -14,4 +14,9 @@
 </ng-template>
 <form>
 <input type = "text" name = "text" [(ngModel)] = "status">
+
+<br>
+<br>
+
+<p *ngFor = "let server of servers">{{server}}</p>
 </form>

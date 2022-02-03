@@ -86,4 +86,10 @@ myFunctionTurn(){
 <h2 [ngClass] = "{online: status == 'This is true'}">server works</h2>
 .online{
   color : blue;
-}           
+}       
+
+
+4> *ngFor
+
+<p *ngFor = "let server of servers">{{server}}</p>
+servers = ['server1', 'server2'];

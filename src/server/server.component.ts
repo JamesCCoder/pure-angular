@@ -25,4 +25,7 @@ export class ServerComponent  {
   getColor(){
     return this.serverCreated == true ? "green" : "red";
   }
+
+  servers = ['server1', 'server2'];
+  tests = ['test1', 'test2'];
 }
