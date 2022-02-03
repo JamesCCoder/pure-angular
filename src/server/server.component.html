@@ -4,7 +4,9 @@
 <br>
 <br>
 <button (click)="myFunction()">Click it!</button>
-<p>{{ status }}</p>
+<button (click)="myFunctionTurn()">Turn!</button>
+<p>{{serverCreated}}</p>
+<p *ngIf = "serverCreated">{{ status }}</p>
 <form>
-<input type = "text" name = "text" [(ngModel)] = "word">
+<input type = "text" name = "text" [(ngModel)] = "status">
 </form>

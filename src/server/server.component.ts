@@ -16,4 +16,9 @@ export class ServerComponent  {
   myFunction(){
     this.status = "This is true";
   }
+
+  serverCreated = false;
+  myFunctionTurn(){
+    this.serverCreated = !this.serverCreated;
+  }
 }

@@ -57,5 +57,12 @@ myFunction(){
 
 
 
-build-in directives    user directive as an attribute
+8. build-in directives    (user directive as an attribute)
+
+<p *ngIf = "serverCreated">{{ status }}</p>
+
+serverCreated = false;
+myFunctionTurn(){
+    this.serverCreated = !this.serverCreated;
+}
 
