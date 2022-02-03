@@ -6,7 +6,12 @@
 <button (click)="myFunction()">Click it!</button>
 <button (click)="myFunctionTurn()">Turn!</button>
 <p>{{serverCreated}}</p>
-<p *ngIf = "serverCreated">{{ status }}</p>
+<p *ngIf = "serverCreated; else replace">{{ status }}</p>
+<ng-template #replace>
+   <p>
+       no change
+   </p>
+</ng-template>
 <form>
 <input type = "text" name = "text" [(ngModel)] = "status">
 </form>
