@@ -43,4 +43,10 @@ SPA is a web application that load web content in only one web document, and the
 <a href = "www.google.com" [target] = setup>This is a link</a>
 setup : String = "_blank";
 
+<button (click)="myFunction()">Click it!</button>                      区分：click 和 onclick
+<p>{{ status }}</p>
+status: String = "This is not true";
+myFunction(){
+    this.status = "This is true";
+}
 
