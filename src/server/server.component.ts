@@ -7,9 +7,12 @@ import { Component } from '@angular/core';
 })
 export class ServerComponent  {
   word : String = "test interpolation";
+  status: String = "This is not true";
   getWord(){
     return this.word;
   }
   setup : String = "_blank";
-  
+  myFunction(){
+    this.status = "This is true";
+  }
 }
