@@ -60,6 +60,7 @@ myFunction(){
 8. build-in directives    (user directive as an attribute)
 
 <p *ngIf = "serverCreated">{{ status }}</p>
+<button (click)="myFunctionTurn()">Turn!</button>
 
 serverCreated = false;
 myFunctionTurn(){
