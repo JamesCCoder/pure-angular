@@ -28,6 +28,7 @@ export class ServerComponent  {
   }
 
   servers : Server[] = [
-    new Server("Server1", "a new Server")
+    new Server("Server1", "a new Server"),
+    new Server("Server2", "a new Server")
   ];
 }
