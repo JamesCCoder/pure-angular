@@ -60,6 +60,8 @@ myFunction(){
 8. build-in directives    (user directive as an attribute)
                           * means it changes the structure of DOM
 
+1> *ngIf 
+
 <p *ngIf = "serverCreated">{{ status }}</p>
 <button (click)="myFunctionTurn()">Turn!</button>
 
@@ -75,3 +77,5 @@ myFunctionTurn(){
    </p>
 </ng-template>
 
+2> ngStyle
+<p [ngStyle] = "{color: getColor()}">The words are "{{ word }}" and {{getWord()}}</p>

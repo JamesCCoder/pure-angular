@@ -21,4 +21,8 @@ export class ServerComponent  {
   myFunctionTurn(){
     this.serverCreated = !this.serverCreated;
   }
+
+  getColor(){
+    return this.serverCreated == true ? "green" : "red";
+  }
 }
