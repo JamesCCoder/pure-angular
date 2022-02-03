@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
 })
 export class ServerComponent  {
   word : String = "test interpolation";
+  getWord(){
+    return this.word;
+  }
   sentence : String = "This is a sentence";
+  
 }
