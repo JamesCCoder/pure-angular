@@ -68,3 +68,10 @@ myFunctionTurn(){
     this.serverCreated = !this.serverCreated;
 }
 
+<p *ngIf = "serverCreated; else replace">{{ status }}</p>
+<ng-template #replace>
+   <p>
+       no change
+   </p>
+</ng-template>
+
