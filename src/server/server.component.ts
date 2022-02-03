@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import{ FormsModule } from '@angular/forms';
+import { Server } from './server.model';
 
 @Component({
   selector: 'server-app',
@@ -26,5 +27,7 @@ export class ServerComponent  {
     return this.serverCreated == true ? "green" : "red";
   }
 
-  servers = [];
+  servers : Server[] = [
+    new Server("Server1", "a new Server")
+  ];
 }
