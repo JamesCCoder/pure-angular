@@ -10,7 +10,7 @@ SPA is a web application that load web content in only one web document, and the
    bootstrap:    [ AppComponent, ServerComponent ]
 
    只有declarations中注册的 component 才能使用
-   只有bootstrap中注册的 component 才能在 index.html 中使用
+   只有bootstrap中注册的 component 才能在 index.html 中使用（root component）
 
 4. angular 程序的入口?
 
