@@ -58,6 +58,7 @@ myFunction(){
 
 
 8. build-in directives    (user directive as an attribute)
+                          * means it changes the structure of DOM
 
 <p *ngIf = "serverCreated">{{ status }}</p>
 <button (click)="myFunctionTurn()">Turn!</button>
