@@ -5,3 +5,13 @@ Angular is a framework of javascript that helps you build reactive single-page-a
 2.what is SPAs?
 
 SPA is a web application that load web content in only one web document, and then update the content of the document by using Javascript APIs then new contents are gonna be shown. Bisically the users will get the web without reloading the information from server, which will gain the performance and dynamic expexrience.
+
+3. declarations: [ AppComponent, HelloComponent, ServerComponent ],
+   bootstrap:    [ AppComponent, ServerComponent ]
+
+   只有declarations中注册的 component 才能使用
+   只有bootstrap中注册的 component 才能在 index.html 中使用
+
+4. angular 程序的入口?
+
+   main.ts
