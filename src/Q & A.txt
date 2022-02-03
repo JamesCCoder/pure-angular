@@ -16,4 +16,4 @@ SPA is a web application that load web content in only one web document, and the
 
    main.ts
 
-5. （single）quatation marks    vs      backtips
+5. （single）quatation marks    vs      backticks
