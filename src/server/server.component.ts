@@ -26,5 +26,5 @@ export class ServerComponent  {
     return this.serverCreated == true ? "green" : "red";
   }
 
-  servers = ["server1", "server2"];
+  servers = [];
 }
