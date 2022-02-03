@@ -91,3 +91,11 @@ myFunctionTurn(){
 4> *ngFor
 <p *ngFor = "let server of servers">{{server}}</p>
 servers = ['server1', 'server2'];
+
+
+
+9. how to set up bootstrap?
+https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/7233704#overview
+
+
+
