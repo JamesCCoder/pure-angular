@@ -57,5 +57,5 @@ myFunction(){
 
 
 
-build-in directives
+build-in directives    user directive as an attribute
 
