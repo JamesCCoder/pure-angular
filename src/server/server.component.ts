@@ -10,6 +10,6 @@ export class ServerComponent  {
   getWord(){
     return this.word;
   }
-  sentence : String = "This is a sentence";
+  setup : String = "_blank";
   
 }

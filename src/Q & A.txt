@@ -38,3 +38,9 @@ SPA is a web application that load web content in only one web document, and the
 
                            <-------------------
                                event binding ()
+
+
+<a href = "www.google.com" [target] = setup>This is a link</a>
+setup : String = "_blank";
+
+
