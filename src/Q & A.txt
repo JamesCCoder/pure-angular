@@ -31,3 +31,10 @@ SPA is a web application that load web content in only one web document, and the
 
    typescript  code        <---------------->           html template
                              communication
+                           
+                           ------------------>
+                             property binding []
+                             interpolation  {{ }}
+
+                           <-------------------
+                               event binding ()
