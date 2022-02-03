@@ -18,10 +18,16 @@ SPA is a web application that load web content in only one web document, and the
 
 5. （single）quatation marks    vs      backticks
 
-5. another way to call selector?
+6. another way to call selector?
 
    attribute way       '[my-app]'
                         <div my-app></div>
 
    css way              '.my-app'
                         <div class = 'my-app'></div>
+
+
+7. logic of databinding
+
+   typescript  code        <---------------->           html template
+                             communication
