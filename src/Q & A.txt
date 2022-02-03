@@ -82,7 +82,7 @@ myFunctionTurn(){
 <p [ngStyle] = "{color: getColor()}">The words are "{{ word }}" and {{getWord()}}</p>
 
 
-3> ngClass             change style class dynamically
+3> ngClass             change style class dynamically (add style only if some condition is true)
 <h2 [ngClass] = "{online: status == 'This is true'}">server works</h2>
 .online{
   color : blue;
