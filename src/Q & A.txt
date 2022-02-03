@@ -77,5 +77,11 @@ myFunctionTurn(){
    </p>
 </ng-template>
 
-2> ngStyle
+2> ngStyle              change style dynamically
 <p [ngStyle] = "{color: getColor()}">The words are "{{ word }}" and {{getWord()}}</p>
+
+3> ngClass             change style class dynamically
+<h2 [ngClass] = "{online: status == 'This is true'}">server works</h2>
+.online{
+  color : blue;
+}           
