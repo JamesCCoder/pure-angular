@@ -50,3 +50,7 @@ myFunction(){
     this.status = "This is true";
 }
 
+<p>{{ status }}</p>
+<form>
+<input type = "text" name = "text" [(ngModel)] = "status">
+</form>
