@@ -1,6 +1,6 @@
 1. what is Angular?
 
-Angular is a framework of javascript that helps you build reactive single-page-appications.
+Angular is a framework of javascript that helps you build reactive single-page-appications. In a normal Angular file, index.html is the single page.
 
 2.what is SPAs?
 
