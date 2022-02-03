@@ -54,3 +54,8 @@ myFunction(){
 <form>
 <input type = "text" name = "text" [(ngModel)] = "status">
 </form>
+
+
+
+build-in directives
+
