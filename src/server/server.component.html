@@ -15,7 +15,7 @@
 <form>
 <input type = "text" name = "text" [(ngModel)] = "status">
 <h1 *ngFor = "let server of servers">
-    <h5>{{server.name}}</h5>
-    <h5>{{server.discription}}</h5>
+    {{server.name}}
+    {{server.discription}}
 </h1>
 </form>
